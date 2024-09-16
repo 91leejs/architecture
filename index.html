@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architecture</title>
+    <script src="js/jquery-3.5.0.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Satisfy&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrap">
+        <header class="header">
+            <div class="head_inner">
+                <h1 class="logo"><a href="#">Architecture</a></h1>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">PORT</a></li>
+                        <li><a href="#">SKILL</a></li>
+                        <li><a href="#">WORK</a></li>
+                        <li><a href="#">NEWS</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </nav>
+
+                <ul class="sns">
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path
+                                    d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM351.3 199.3v0c0 86.7-66 186.6-186.6 186.6c-37.2 0-71.7-10.8-100.7-29.4c5.3 .6 10.4 .8 15.8 .8c30.7 0 58.9-10.4 81.4-28c-28.8-.6-53-19.5-61.3-45.5c10.1 1.5 19.2 1.5 29.6-1.2c-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3c-9-6-16.4-14.1-21.5-23.6s-7.8-20.2-7.7-31c0-12.2 3.2-23.4 8.9-33.1c32.3 39.8 80.8 65.8 135.2 68.6c-9.3-44.5 24-80.6 64-80.6c18.9 0 35.9 7.9 47.9 20.7c14.8-2.8 29-8.3 41.6-15.8c-4.9 15.2-15.2 28-28.8 36.1c13.2-1.4 26-5.1 37.8-10.2c-8.9 13.1-20.1 24.7-32.9 34c.2 2.8 .2 5.7 .2 8.5z" />
+                                </svg></a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path
+                                    d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64h98.2V334.2H109.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H255V480H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64z" />
+                                </svg></a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path
+                                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                                </svg></a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path
+                                    d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z" />
+                                </svg></a></li>
+                </ul><!-- sns -->
+
+                <button class="m_btn">
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg></a>
+                </button><!-- m_btn -->
+            </div><!-- head_inner -->
+        </header><!-- header -->
+
+        <section class="main">
+            <div class="move">
+                <div class="visual1 vis">
+                    <div class="text">
+                        <h2>Welcome</h2>
+                        <p>You can make anything width Total.<br>Even this page.</p>
+                    </div><!-- text -->
+                </div><!-- visual -->
+
+                <div class="visual2 vis">
+                    <div class="text">
+                        <h2>Welcome</h2>
+                        <p>You can make anything width Total.<br>Even this page.</p>
+                    </div><!-- text -->
+                </div><!-- visual -->
+
+                <div class="visual3 vis">
+                    <div class="text">
+                        <h2>Welcome</h2>
+                        <p>You can make anything width Total.<br>Even this page.</p>
+                    </div><!-- text -->
+                </div><!-- visual -->
+            </div><!-- move -->
+
+            <div class="sub_title">
+                <p>
+                    Weclome to architecture. We are an innovative and creative<br>
+                    agency that makes things. Keep reading to learn about what<br>
+                    We can do for your business.
+                </p>
+            </div><!-- sub_title -->
+
+            <div class="work">
+                <div class="work_inner">
+                    <h2>Recent Work</h2>
+                    <p>We are creative makeing incredible things. Have a look at some of your latest work below.</p>
+                    <ul class="work_list">
+                        <li class="w1"><a href="#">111</a></li>
+                        <li class="w2"><a href="#">222</a></li>
+                        <li class="w3"><a href="#">333</a></li>
+                    </ul>
+                </div><!-- work_inner -->
+            </div><!-- work -->
+
+            <div class="skill">
+                <div class="skill_inner">
+                    <ul class="skill_list">
+                        <li class="s_1">
+                            <h3>Skill01</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate corrupti doloremque
+                                laudantium hic, assumenda est rerum eaque aperiam aliquam ratione molestiae minus animi ipsa
+                                a cum nulla dicta totam exercitationem!</p>
+                        </li><!-- s_1 -->
+                        
+                        <li class="s_2">
+                            <h3>Skill02</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate corrupti doloremque
+                                laudantium hic, assumenda est rerum eaque aperiam aliquam ratione molestiae minus animi ipsa
+                                a cum nulla dicta totam exercitationem!</p>
+                        </li><!-- s_1 -->
+    
+                        <li class="s_3">
+                            <h3>Skill03</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate corrupti doloremque
+                                laudantium hic, assumenda est rerum eaque aperiam aliquam ratione molestiae minus animi ipsa
+                                a cum nulla dicta totam exercitationem!</p>
+                        </li><!-- s_1 -->
+    
+                        <li class="s_4">
+                            <h3>Skill04</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate corrupti doloremque
+                                laudantium hic, assumenda est rerum eaque aperiam aliquam ratione molestiae minus animi ipsa
+                                a cum nulla dicta totam exercitationem!</p>
+                        </li><!-- s_1 -->
+    
+                        <li class="s_5">
+                            <h3>Skill05</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate corrupti doloremque
+                                laudantium hic, assumenda est rerum eaque aperiam aliquam ratione molestiae minus animi ipsa
+                                a cum nulla dicta totam exercitationem!</p>
+                        </li><!-- s_1 -->
+    
+                        <li class="s_6">
+                            <h3>Skill06</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate corrupti doloremque
+                                laudantium hic, assumenda est rerum eaque aperiam aliquam ratione molestiae minus animi ipsa
+                                a cum nulla dicta totam exercitationem!</p>
+                        </li><!-- s_1 -->
+                    </ul><!-- skill_list -->
+                </div><!-- skill_inner -->
+            </div><!-- skill -->
+
+            <div class="mid_title">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+                    A, quisquam? At minima natus quia amet illo labore, eaque error laborum laboriosam asperiores<br>
+                    <span>-Vince Lombardi</span>
+                </p>
+            </div><!-- mid_title -->
+
+            <div class="news">
+                <div class="news_inner">
+                    <h2>Recent News</h2>
+                    <p>Have a look at day in the life of architecture and keep up with current events.</p>
+                    <ul class="news_list">
+                        <li>
+                            <img src="img/news01.png" alt="news1">
+                            <h3>Just a Day, An Ordinary Day</h3>
+                            <p class="date">January 16, 2024</p>
+                            <p class="news_text">
+                                Lorem ipsum dolor sit, amet<br>
+                                consectetur adipisicing elit.<br>
+                                Mollitia, expedita ex aliquam voluptas id laboriosam nihil cumque rem repudiandae eligendi numquam earum,<br>
+                                fugiat voluptatem eum cupiditate ab impedit adipisci repellat.<br>
+                            </p>
+                        </li>
+                        
+                        <li>
+                            <img src="img/news02.png" alt="news2">
+                            <h3>Just a Day, An Ordinary Day</h3>
+                            <p class="date">January 16, 2024</p>
+                            <p class="news_text">
+                                Lorem ipsum dolor sit, amet<br>
+                                consectetur adipisicing elit.<br>
+                                Mollitia, expedita ex aliquam voluptas id laboriosam nihil cumque rem repudiandae eligendi numquam earum,<br>
+                                fugiat voluptatem eum cupiditate ab impedit adipisci repellat.<br>
+                            </p>
+                        </li>
+
+                        <li>
+                            <img src="img/news03.png" alt="news3">
+                            <h3>Just a Day, An Ordinary Day</h3>
+                            <p class="date">January 16, 2024</p>
+                            <p class="news_text">
+                                Lorem ipsum dolor sit, amet<br>
+                                consectetur adipisicing elit.<br>
+                                Mollitia, expedita ex aliquam voluptas id laboriosam nihil cumque rem repudiandae eligendi numquam earum,<br>
+                                fugiat voluptatem eum cupiditate ab impedit adipisci repellat.<br>
+                            </p>
+                        </li>
+                    </ul><!-- news_list -->
+                </div><!-- news_inner -->
+            </div><!-- news -->
+        </section><!-- main -->
+
+        <footer class="footer">
+            <div class="foot_inner">
+                <div class="f_top">
+                    <p>Get Total today to make your own site like this. Just do it.</p>
+                    <button>get Total today</button>
+                </div><!-- f_top -->
+
+                <div class="copy">
+                    &copy;Copyright <span>Total Architecture Corp.</span>
+                </div><!-- copy -->
+            </div><!-- foot_inner -->
+        </footer><!-- footer -->
+    </div><!-- wrap -->
+</body>
+
+</html>
